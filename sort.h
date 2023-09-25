@@ -21,6 +21,9 @@ typedef struct listint_s
 /*Helper for bubble sort*/
 void swap_and_print(int *array, int i, int j, size_t size);
 
+/*Helper for insertion sort*/
+void swap_nodes(listint_t **list, listint_t *node1, listint_t *node2);
+
 /*Printing helper functions */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
